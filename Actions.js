@@ -10,6 +10,7 @@ describe('Actions demo',function(){
 			element.all(by.css("div[ng-mouseover*='onSearchResultOver']")).get(0).click();		//ez nem clickable, ezért kell a következő sor
 			element(by.css("a[ng-href*='London/River Island']")).click().then(function(){
 				browser.sleep(5000);
+				
 			})
 		})
 	})	
